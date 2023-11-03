@@ -1,0 +1,91 @@
+#about{
+    
+    padding: 0 2rem;
+    max-width: 65rem;
+    width: 100vw;
+    margin: 0 auto;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+.about-intro{
+    font-size: 1rem;
+    max-width: 50rem;
+    padding: 1rem 0;
+    /* padding: 0 2rem; */
+}
+
+.about-into span{
+    color: rgb(227, 201, 100);
+}
+
+.about-head{
+    font-weight: bold;
+    font-size: 2.5rem;
+    padding: 1.5rem 0;
+}   
+
+.skill-list{
+    width: 100vw;
+    margin: 1.5rem;
+    max-width: 80%;       /*ffdfdf*/
+    text-align: left;
+}
+
+.skill{
+    display: flex;
+    align-items: center;
+    margin: 1rem;
+    padding: 1rem 1rem;
+    background-color: rgb(57, 56, 56);
+    border-radius: 1rem;
+}
+
+.skill-image{
+    object-fit: cover;
+    height: 4rem;
+    width: 4rem;
+    margin: 1rem;
+}
+
+.skill:hover{
+    background-color: rgb(73, 73, 73);
+}
+
+.skill-text{
+    font-size: 0.85rem;
+    font-weight: lighter;
+}
+
+
+@media screen and (max-width: 550px) {
+    .skill-info h2{
+        font-size: medium;
+    }
+    .skill-text{
+        font-size: small;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .skill{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .skill-text{
+        font-size: 0.7rem;
+    }
+}
+
+@media screen and (max-width: 250px) {
+    .skill-text{
+        display: none;
+    }
+}

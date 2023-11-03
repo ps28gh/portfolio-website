@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Poppins:wght@400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: none;
+    font-family: 'Poppins', sans-serif;
+    /* background: transparent; */
+    background-color: rgb(33, 33, 33);
+}
+
+body {
+    background-color: rgb(33, 33, 33);
+    color: white;
+    overflow: hidden;
+    overflow-y: scroll;
+}
