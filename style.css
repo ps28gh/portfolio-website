@@ -6,8 +6,8 @@
     box-sizing: border-box;
     text-align: none;
     font-family: 'Poppins', sans-serif;
-    /* background: transparent; */
-    background-color: rgb(33, 33, 33);
+    background: transparent;
+    /* background-color: rgb(33, 33, 33); */
 }
 
 body {
